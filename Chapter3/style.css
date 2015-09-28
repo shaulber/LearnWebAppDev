@@ -1,14 +1,14 @@
-body{
-    background:lightcyan;
-    width: 800px;
-    margin: auto;
+*{
+    margin: 0;
+    padding: 0;
 }
-h1{
-    color: maroon;
-    text-align: center;
+nav{
+    backgroundcolor: darkgray;
+    float: left;
 }
-p{
-    color: grey;
-    border: 1px solid grey;
-    padding: 10px;
+main{
+    background: lightgray;
+}
+footer{
+    background: gray;
 }
