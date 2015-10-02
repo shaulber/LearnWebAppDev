@@ -1,0 +1,12 @@
+body{
+    background: yellow;
+}
+header, main, footer{
+    min-width: 855px;
+}
+header{
+    background: white;
+}
+main{
+    background: white;
+}
