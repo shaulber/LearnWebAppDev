@@ -1,8 +1,15 @@
 body{
     background: yellow;
+    width: 855px;
+    margin: auto;
 }
 header, main, footer{
     min-width: 855px;
+    max-width: 855px;
+}
+header .container, main .container, footer .container{
+    max-width: 85px;
+    margin: auto;
 }
 header{
     background: white;
