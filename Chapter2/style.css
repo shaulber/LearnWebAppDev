@@ -5,15 +5,46 @@ body{
 }
 header, main, footer{
     min-width: 855px;
-    max-width: 855px;
+
 }
 header .container, main .container, footer .container{
-    max-width: 85px;
+    max-width: 855px;
     margin: auto;
 }
 header{
     background: white;
+    overflow: auto;
+}
+header h1{
+    float: left;
+    width: 570px;
+}
+header nav {
+    float: right;
+    width: 285px;
 }
 main{
     background: white;
+    overflow: auto;
+}
+main .leftMain{
+    float: left;
+    width: 570px;
+    background: white;
+}
+main .rightMain{
+    float: right;
+    width: 285px;
+    background: white;
+}
+footer{
+    overflow: auto;
+}
+footer .contact{
+    float: left;
+    width: 570px;
+}
+footer .sitemap{
+    float: right;
+    width: 285px;
 }
